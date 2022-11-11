@@ -19,7 +19,7 @@ public class Contact extends JFrame{
     private JButton saveExistingButton;
     private JTextField emailField;
 
-    private static List listData = new ArrayList<ArrayList<Object>>();
+    private static List listData = new ArrayList<Object>();
     private static Object[] jk = {"Jan Kowalski", "jk132441@stud.ur.edu.pl", "534 439 523", "ul. Ochotnicza 4", LocalDate.of(2001, 4, 14)};
     private static Object[] mn = {"Marian Nowak", "jnowak@ur.edu.pl", "549 871 221", "ul. Strażacka 58", LocalDate.of(1991, 12, 13)};
     private static Object[] jn = {"Janina Urban", "jn122267@stud.ur.edu.pl", "501 312 495", "ul. Krzywa 102", LocalDate.of(1999, 1, 27)};
